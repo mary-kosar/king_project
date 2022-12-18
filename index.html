@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body id="body">
+    <div class="wrapper">
+        <div class="container">
+            <div class="main-screen">
+                <!-- header -->
+                <header class="header">
+                    <a href="#" class="header__logo">
+                        William King <span>.</span>
+                    </a>
+                    <div class="header__burger">
+                        <span id="icon-menu" onclick="navToggle()" class="material-icons _active">
+                            menu
+                        </span>                    
+                    </div>                
+                    <nav id="nav" class="header__nav nav">
+                        <ul class="nav__ul">
+                            <li class="nav__li"><a href="#" class="nav__a _active">About</a></li>
+                            <li class="nav__li"><a href="#" class="nav__a">Services</a></li>
+                            <li class="nav__li"><a href="#" class="nav__a">Portfolio</a></li>
+                            <li class="nav__li"><a href="#" class="nav__a">Testimonials</a></li>
+                            <li class="nav__li"><a href="#" class="nav__a">Prcing</a></li>
+                            <li class="nav__li"><a href="#" class="nav__a">Contact</a></li>
+                        </ul>
+                        <span id="icon-close" onclick="navToggle()" class="material-icons">
+                            close
+                        </span>
+                    </nav>
+                </header>
+                <!-- main-screen -->
+                <div class="main-screen__body">
+                    <div class="main-screen__info">
+                        <h1 class="main-screen__title">I’m William K.</h1>
+                        <h3 class="main-screen__subtitle"> <span>Web Designer</span>  / <span> UI Designer</span> / <span>Graphic designer</span> </h3>
+                        <p class="main-screen__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                        <button class="btn main-screen__btn">Explore My Work</button>
+                    </div>
+                    <div class="main-screen__avatar">
+                        <div class="main-screen__img">
+                            <img src="img/main.png" alt="profile">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- Servisces -->
+            <section class="services">
+                <h2 class="title">My <span>Services</span> </h2>
+                <p class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                <div class="services__list">
+                    <div class="services__item item">
+                        <div class="item__icon">
+                            <img src="img/icon/img1.svg" alt="cup">
+                        </div>
+                        <div class="item__info">
+                            <div class="item__title">Service title</div>
+                            <div class="item__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        </div>
+                    </div>
+                    <div class="services__item item">
+                        <div class="item__icon">
+                            <img src="img/icon/img2.svg" alt="menu">
+                        </div>
+                        <div class="item__info">
+                            <div class="item__title">Service title</div>
+                            <div class="item__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        </div>
+                    </div>
+                    <div class="services__item item">
+                        <div class="item__icon">
+                            <img src="img/icon/img3.svg" alt="settings">
+                        </div>
+                        <div class="item__info">
+                            <div class="item__title">Service title</div>
+                            <div class="item__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        </div>
+                    </div>
+                    <div class="services__item item">
+                        <div class="item__icon">
+                            <img src="img/icon/img4.svg" alt="shield-check">
+                        </div>
+                        <div class="item__info">
+                            <div class="item__title">Service title</div>
+                            <div class="item__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        </div>
+                    </div>
+                    <div class="services__item item">
+                        <div class="item__icon">
+                            <img src="img/icon/img5.svg" alt="send">
+                        </div>
+                        <div class="item__info">
+                            <div class="item__title">Service title</div>
+                            <div class="item__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        </div>
+                    </div>
+                    <div class="services__item item">
+                        <div class="item__icon">
+                            <img src="img/icon/img6.svg" alt="headphone">
+                        </div>
+                        <div class="item__info">
+                            <div class="item__title">Service title</div>
+                            <div class="item__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- Portfolio -->
+            <section class="portfolio">
+                <h2 class="title">My <span>Portfolio</span> </h2>
+                <p class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                <div class="portfolio__list ">
+                    <div class="portfolio__item">
+                        <img src="img/photo/img1.png" alt="watch">
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="img/photo/img2.png" alt="watch">
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="img/photo/img3.png" alt="watch">
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="img/photo/img4.png" alt="watch">
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="img/photo/img5.png" alt="watch">
+                    </div>
+                    <div class="portfolio__item">
+                        <img src="img/photo/img6.png" alt="watch">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- review -->
+            <section class="review">
+                <h2 class="title">Listen to my  <span>customers</span> </h2>
+                <p class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                <div class="review__list">
+                    <div class="review__item">
+                        <div class="review__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        <div class="review__person person">
+                            <div class="person__img">
+                                <img src="img/photo/circle1.png" alt="person">
+                            </div>
+                            <div class="person__info">
+                                <h3 class="person__name">Leslie Alexander</h3>
+                                <p class="person__profession">Dog Trainer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        <div class="review__person person">
+                            <div class="person__img">
+                                <img src="img/photo/circle2.png" alt="person">
+                            </div>
+                            <div class="person__info">
+                                <h3 class="person__name">Guy Hawkins</h3>
+                                <p class="person__profession">Web Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        <div class="review__person person">
+                            <div class="person__img">
+                                <img src="img/photo/circle3.png" alt="person">
+                            </div>
+                            <div class="person__info">
+                                <h3 class="person__name">Devon Lane</h3>
+                                <p class="person__profession">Medical Assistant</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="review__item">
+                        <div class="review__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</div>
+                        <div class="review__person person">
+                            <div class="person__img">
+                                <img src="img/photo/circle4.png" alt="person">
+                            </div>
+                            <div class="person__info">
+                                <h3 class="person__name">Floyd Miles</h3>
+                                <p class="person__profession">Marketing Coordinator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- price -->
+            <section class="price">
+                <h2 class="title">My <span> Pricing</span> </h2>
+                <p class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                <div class="price__list">
+                    <div class="price__item">
+                        <div class="price-top">
+                            <h3 class="price__pack">Silver</h3>
+                            <p class="price__cost">$99.0</p>
+                            <p class="price__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                        </div>
+                        <hr class="hr__card">
+                        <div class="price-bottom">
+                            <button class="btn price__btn">Get Started</button>
+                            <ul class="price__list-size">
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                            </ul>
+                        </div>                    
+                    </div>
+                    <div class="price__item">
+                        <div class="price-top">
+                            <h3 class="price__pack">Silver</h3>
+                            <p class="price__cost">$99.0</p>
+                            <p class="price__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                        </div>
+                        
+                        <div class="price-bottom">
+                            <hr class="hr__card">
+                            <button class="btn price__btn">Get Started</button>
+                            <ul class="price__list-size">
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                            </ul>
+                        </div>                    
+                    </div>
+                    <div class="price__item">
+                        <div class="price-top">
+                            <h3 class="price__pack">Silver</h3>
+                            <p class="price__cost">$99.0</p>
+                            <p class="price__desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                        </div>
+                        
+                        <div class="price-bottom">
+                            <hr class="hr__card">
+                            <button class="btn price__btn">Get Started</button>
+                            <ul class="price__list-size">
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                                <li class="list-size">12 GB Free space</li>
+                            </ul>
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <!-- in touch -->
+            <section>
+                <h2 class="title">Get in  <span>touch</span> </h2>
+                <p class="desc">Rutrum cursus varius ullamcorper venenatis faucibus lobortis turpis dignissim. Commodo pellentesque tristique aliquet turpis. Morbi risus imperdiet</p>
+                <form action="#" class="form">
+                    <label class="form__field">
+                        <input type="text" placeholder="Enter Your Name">
+                    </label>
+                    <label class="form__field">
+                        <input type="email" placeholder="Enter your email address">
+                    </label>
+                    <label >
+                        <textarea placeholder="Enter Message"></textarea>
+                    </label>
+                </form>
+                <button class="btn">Send Message</button>
+            </section>        
+        </div>
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container footer__cover">
+                <div class="footer__logo">© 2020 All rights reserved. Designed by <span>SA7MAN.</span> </div>
+                <nav class="footer__nav">
+                    <ul class="footer__list">
+                        <li class="footer__item"><a href="" class="footer__link">Twitter</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Dribbble</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Github</a></li>
+                        <li class="footer__item"><a href="" class="footer__link">Instagram</a></li>
+                    </ul>
+                </nav>
+            </div>            
+        </footer>
+    </div> 
+    
+    <script src="script.js"></script>
+</body>
+</html>

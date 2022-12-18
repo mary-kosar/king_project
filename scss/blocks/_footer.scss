@@ -1,0 +1,37 @@
+.footer {
+    background-color: $c-dark_2;
+    &__cover {
+        margin-top: 90px;
+        display: flex;
+        justify-content: space-between;
+        padding: 53px 20px;
+        @include tablet-small {
+            flex-direction: column-reverse;
+            justify-content: center;
+            gap: 34px;           
+        }    
+    }
+    &__logo {
+        @include text(400, 16px, 19px, $c-white);
+        & span {
+            color: $c-primary;
+        }
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        gap: 34px;
+        @include tablet-small {
+            flex-wrap: wrap;
+            justify-content: center;            
+        }
+    }
+    &__link {
+        @include text(400, 16px, 19px, $c-white);
+        transition: $transition;
+        &:hover {
+            color: $c-primary;
+        }
+    }
+    
+}
